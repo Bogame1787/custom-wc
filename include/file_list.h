@@ -9,4 +9,4 @@ void walk_dir(const char *dirpath);
 size_t file_list_count(void);
 const char* file_list_get(size_t index);
 
-#endif // FILE_LIST_H
+#endif 
