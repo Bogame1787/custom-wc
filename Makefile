@@ -4,7 +4,7 @@ LDFLAGS :=
 SRC_DIR := src
 INC_DIR := include
 BUILD   := build
-TARGET  := wc_parallel
+TARGET  := custom_wc
 
 SRCS    := $(wildcard $(SRC_DIR)/*.c)
 OBJS    := $(patsubst $(SRC_DIR)/%.c,$(BUILD)/%.o,$(SRCS))
