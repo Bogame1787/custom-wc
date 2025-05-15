@@ -11,4 +11,4 @@ typedef struct {
 
 wc_count_t count_file(const char *path);
 
-#endif // WC_COUNT_H
+#endif 
