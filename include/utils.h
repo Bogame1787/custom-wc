@@ -7,4 +7,4 @@
 void usage(const char *prog);
 void perror_msg(const char *msg, const char *arg);
 
-#endif // UTILS_H
+#endif 
